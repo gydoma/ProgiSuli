@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="css/morpher.css">
     <script src="js/bg-color-morph.min.js"></script>
     <title>ProgiSuli</title>
+    <style>
+        @media screen and (max-width: 640px) {
+            #grad {
+                font-size: 2.4rem;
+                word-wrap: break-word;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="bg-morph" data-end-color="#0080FF" data-start-color="00D8FF" data-start-trigger="top" data-end-trigger="bottom" id="main">
@@ -48,7 +56,7 @@
         <div class="uk-section">
             <div class="uk-container">
                 <div class="uk-margin-large-bottom uk-card uk-card-default uk-card-body">
-                    <h1 class="uk-text-center" id="grad">Program Alapok</h1>
+                    <h1 class="uk-text-center" id="grad">Programozás</h1>
                 </div>
                 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-small uk-grid-match" uk-grid>
                     <div>
@@ -59,15 +67,15 @@
                                         <img class="uk-border-circle" width="40" height="40" src="res/py.png">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom">Python</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom"><b>Python</b></h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-body">
-                                <p>A Python egy nyílt forráskódú programozási nyelv, leginkább a Ruby és JavaScript nyelvhez hasonlít. Amiben különbözik a Python a többi nyelvtől ...</p>
+                                <p>A <b>Python</b> egy nyílt forráskódú programozási nyelv, leginkább a Ruby és JavaScript nyelvhez hasonlít. Amiben különbözik a Python a többi nyelvtől ...</p>
                             </div>
                             <div class="uk-card-footer">
-                                <a href="python.html" class="uk-button uk-button-text">Katt ide!</a>
+                                <a href="python.html" class="uk-button uk-button-text"><b>Katt ide!</b></a>
                             </div>
                         </div></a>
                     </div>
@@ -79,7 +87,7 @@
                                         <img class="uk-border-circle" width="40" height="40" src="res/web.png">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom">Web</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom"><b>Web</b></h3>
                                     </div>
                                 </div>
                             </div>
@@ -111,36 +119,35 @@
                                         <img class="uk-border-circle" width="40" height="40" src="res/it.png">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom">IT</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom"><b>IT</b></h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-body">
-                                <p>Az első számítógépet személyi számítógépnek (pc) hívták. Ami nem egy központi számítógép terminálja egy személy által kezelt ...</p>
+                                <p>Az első számítógépet személyi számítógépnek <b>PC</b>-nek hívták. Ami nem egy központi számítógép terminálja hanem egy személy által kezelt ...</p>
                             </div>
                             <div class="uk-card-footer">
-                                <a href="it.html" class="uk-button uk-button-text">Katt ide!</a>
+                                <a href="it.html" class="uk-button uk-button-text"><b>Katt ide!</b></a>
                             </div>
                         </div>  
                     </div>
                     <div>
                         <div class="uk-card uk-card-default">
-                            <a class="uk-link-reset"><div class="uk-card-header">
+                            <a href="halozat.html" class="uk-link-reset"><div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
                                         <img class="uk-border-circle" width="40" height="40" src="res/halism.png">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom">Hálózatok</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom"><b>Hálózatok</b></h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-body">
-                                <p>Hamarosan Elérhető!</p>
+                                <p>A <b>hálózat</b> a számítógépek összekapcsolt rendszerét kezeli, hogy ez működjön lehetővé teszi az adatok megosztását és PC-k között lévő kommunikációt. A legelterjedtebb hálózat az <b>internet</b> , ami összeköti a világ számítógépeit ...</p>
                             </div>
                             <div class="uk-card-footer">
-                                
-                                <a class="uk-button uk-button-text"></a>
+                                    <a href="halozat.html" class="uk-button uk-button-text"><b>Katt ide!</b></a>
                             </div>
                         </div>  
                     </div>
@@ -153,7 +160,7 @@
                     <div class="uk-child-width-1-2@m uk-grid-match uk-child-width-expand@m" uk-grid>
                         <div>
                             <div class="uk-card uk-card-default uk-card-small uk-card-body">
-                                <h3 class="uk-card-title">Információ</h3>
+                                <h3 class="uk-card-title"><b>Információ</b></h3>
                                 <p id="info">ProgiSuli készült 2024.0x.xx.</p><hr><p>Ezen az oldalon megtalálhatod, a középiskolai tananyagokat programozás gyakorlásához. Próbálkoztam a legigényesebben megoldani, hogy te is el tudj kezdeni tanulni programozni. A teljes weboldal elkészítése rengeteg időt vett igénybe. Az oldalt megtalálhatod a <span uk-icon="icon: github-alt"></span> <a href="https://github.com/MagyarMark/ProgiSuli">Github</a> oldalon is. Amennyiben bármilyen kérdésed lenne, küldj egy e-mailt erre a címre:<strong><em><mark> </mark>ProgiSuli@gmail.com</em></strong>
                                 <img src="res/powered-by-coffee.svg" alt="" style="float: right;"></p>
                                 <hr>

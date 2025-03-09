@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="css/fontgrad.css" rel="stylesheet">
+    <script src="js/prism.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/morpher.css">
+    <script src="js/bg-color-morph.min.js"></script>
+    <link rel="stylesheet" href="css/bg.css">
+    <title>ProgiSuli / Python Tételek</title>
+    
+</head>
+<body class="match-braces uk-background-secondary uk-animation-scale-down">
+    <div>
+    <div class="bg-morph" data-end-color="#0090ff" data-start-color="00D8FF" data-start-trigger="top" data-end-trigger="bottom" id="main">
+    <!--<div class="uk-animation-scale-down">-->
+
+<nav class="uk-navbar-container uk-margin" uk-navbar>
+    <div class="uk-navbar-center">
+        <div class="uk-navbar-center-left"><div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="python.html">Python</a></li>
+                <li><a href="it.html">It</a></li>
+            </ul>
+        </div></div>
+        <a class="uk-navbar-item uk-logo" href="#"><img alt="home" src="res/logo.png" width="32" height="32"></a>
+        <div class="uk-navbar-center-right"><div>
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">Web</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active">Válassz</li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="web/html.html">HTML</a></li>
+                            <li><a href="web/css.html">CSS</a></li>
+                            <li><a href="web/bs.html">BootStrap</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="index.html">Vissza</a></li>
+            </ul>
+        </div></div>
+    </div>
+</nav>
+<div class="uk-section">
+    <div class="uk-container">
+                <div class="uk-margin-large uk-card uk-card-default uk-card-body">
+                    <h2 class="uk-text-center" id="grad">Tételek</h2>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Programozási tételek</h3>
+                            <p>Ebben a részben a programozási tételekkel fogunk foglalkozni.<br>
+                            Igyekeztünk a legérthetőbben leírni és vizualizálni a tételeket, ahogy láthatod bal oldalt részletesen a kód minden porcikáját megfigyeljük és azonos színnel jelöltük az azonos változókat, funkciókat és egyebeket. A nyilak segítenek, hogy meg tudd figyelni melyik kódrész melyikhez vezet. Vonallal választottuk el az Inputot, a Kódot ami megcsinálja az adott műveletet és az Outputot. Dupla vonallal a külön szálon futó kódokat szeparáltuk szét, hogy ne gabalyodj bele a két kódba.<br>
+                            És természetesen nyers kódot is adtunk hozzá (jobb oldalt látható), hogy tudd tesztelni a gépeden.</p>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>A lecke tartalma:</h3>
+                            <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                                <div>
+                                    <ul class="uk-list uk-list-divider">
+                                        <li>Összegzés</li>
+                                        <li>Megszámolás</li>
+                                        <li>Eldöntés</li>
+                                        <li>Kiválasztás</li>
+                                        <li>Keresés</li>
+                                        <li>Másolás</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-list uk-list-divider">
+                                        <li>Kiválogatás</li>
+                                        <li>Szétválogatás</li>
+                                        <li>Metszet</li>
+                                        <li>Unió</li>
+                                        <li>Szélsőérték</li>
+                                        <li></li>
+                                    </ul>                                    
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Összegzés</h3>
+                            <img src="res/osszegzes.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">lista = [3, 8, 2, 4, 5, 1, 6]
+
+sum = 0 
+for i in lista: 
+    sum = sum + i
+print(sum)</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Megszámolás</h3>
+                            <img src="res/megszamlalas.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">lista = [3, 8, 2, 4, 5, 1, 6]
+
+c = 0
+for i in lista:
+    if i &gt; 3: c += 1
+print(c)</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Eldöntés</h3>
+                            <img src="res/eldontes.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">lista = [3, 8, 2, 4, 5, 1, 6]
+
+keres = int(input('Keresett szám: '))
+while i &lt; len(lista) and lista[i] != keres:
+    i = i + 1
+if i &lt; len(lista):
+    print('Van')
+else:
+    print('Nincs')</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Kiválasztás</h3>
+                            <p>Hasonló mint az <code>Eldöntés</code> csak itt nem kell az <code>while</code> ciklusba a <code>i &lt; len(lista)</code></p>
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">lista = [3, 8, 2, 4, 5, 1, 6]
+
+keres = int(input('Keresett szám: '))
+while lista[i] != keres:
+    i = i + 1
+print(f'{i + 1}. helyen van a keresett szám')</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Keresés</h3>
+                            <img src="res/kereses.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">lista = [3, 8, 2, 4, 5, 1, 6]
+keres = int(input('Keresett elem: '))
+
+while i &lt; lista and lista[i] != keres:
+    i = i + 1
+if i &lt; lista: 
+    print(f'Van "{keres}" elem, indexe: {i}')
+else:
+    print('Nincs ilyen elem')</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Másolás</h3>
+                            <img src="res/masolas.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">lista = [3, 8, 2, 4, 5, 1, 6]
+lista_copy = []
+lista_kettes_szorzas = []
+for i in lista:
+    lista_copy.append(i)
+print(lista_copy)
+
+def kettes_szorzas(szam:int) -> int:
+    '''Egy számot megszoroz kettővel.'''
+    return szam * 2
+
+for i in lista:
+    lista_kettes_szorzas.append(kettes_szorzas(i))
+print(lista_kettes_szorzas)</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Kiválogatás</h3>
+                            <img src="res/kivalogatasas.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">for i in lista:
+    if i &lt; 5: 
+        lista2.append[i]
+print(lista2)</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Szétválogatás</h3>
+                            <p>Hasonló mint az <code>Kiválogatás</code> viszont itt egy <code>else</code> ágat is csinálunk amibe a maradék számokat illesztjük be.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">for i in lista:
+    if i &lt; 5:
+        lista2.append[i]
+    else: 
+        lista3.append[i]</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Metszet</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">for x in a:
+    i=0
+    while i&lt;len(b) and x!=b[i]:i+=1
+    if i&lt;len(b):c.append(i)
+print(c)</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Unió</h3>
+                            <!-- <img src="res/uniotetel.png" alt=""> -->
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">c = a.copy()
+for j in range(0, len(b)):
+    i=0
+    while i&lt;len(a) and b[j] != a[i]:i+=1
+    if i&gt;=len(a):c.append(b[j])
+print(c)</code></pre>
+                    </div>
+                </div>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h3>Szélsőérték</h3>
+                            <img src="res/szelsoertek.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <pre class="line-numbers"><code class="language-python">lista = [3, 8, 2, 4, 5, 1, 6]
+mini = 0
+maxi = 0
+
+for x in range(len(lista)):
+    if lista[x]&lt;mini:
+        mini=lista[x]
+
+for x in range(len(lista)):
+    if lista[x]&gt;maxi:
+        maxi=lista[x] 
+
+print(f'legkisebb szám a listában: {mini}')
+# output: 1
+
+print(f'legnagyobb szám a listában: {maxi}')
+# output: 8</code></pre>
+                    </div>
+                </div>
+                <br>
+
+                <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h2><a href="index.html"><span uk-icon="icon: chevron-left"></span> Vissza a főoldalra</a></h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-text-right">
+                            <h2><a href="python.html">Vissza a Python gyakorlathoz<span uk-icon="icon: chevron-right"></span></a></h2>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <hr class="uk-divider-icon">
+        
+        </div>
+    </div>
+    </div>
+</body>
+</html>

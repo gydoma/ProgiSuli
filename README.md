@@ -1,3 +1,3 @@
 # ProgiSuli
 Középiskolai Programozási alapok
-<h1><a>https://magyarmark.github.io/ProgiSuli/</a></h1>
+<p><a>https://magyarmark.github.io/ProgiSuli/</a></p>

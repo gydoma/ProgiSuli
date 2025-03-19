@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="css/fontgrad.css" rel="stylesheet">
+    <script src="js/prism.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/morpher.css">
+    <script src="js/bg-color-morph.min.js"></script>
+    <link rel="stylesheet" href="css/bg.css">
+    <title>ProgiSuli / Hálózat</title>
+    <style>
+        @media screen and (max-width: 640px) {
+            #grad {
+                font-size: 3rem;
+                word-wrap: break-word;
+            }
+        }
+    </style>
+</head>
+<body class="match-braces uk-background-secondary uk-animation-scale-down">
+
+    <div class="bg-morph" data-end-color="#0080FF" data-start-color="00D8FF" data-start-trigger="top" data-end-trigger="bottom" id="main">
+        <div class="uk-animation-scale-down">
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-center">
+            <div class="uk-navbar-center-left"><div>
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="python.html">Python</a></li>
+                    <li><a href="it.html">It</a></li>
+                </ul>
+            </div></div>
+            <a class="uk-navbar-item uk-logo" href="#"><img alt="home" src="res/logo.png" width="32" height="32"></a>
+            <div class="uk-navbar-center-right"><div>
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="#">Web</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active">Válassz</li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="web/html.html">HTML</a></li>
+                                <li><a href="web/css.html">CSS</a></li>
+                                <li><a href="web/bs.html">BootStrap</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="index.html">Vissza</a></li>
+                </ul>
+            </div></div>
+        </div>
+    </nav>
+
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-margin-large-bottom uk-card uk-card-default uk-card-body">
+                <h1 class="uk-text-center" id="grad">Hálózati parancsok</h1>
+            </div>
+
+            <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h2>Hálózati parancsok</h2>
+                        <hr>
+                            <p>A hálózati parancsok segítségével lehetőség van a hálózati kapcsolatok kezelésére, a hálózati eszközök konfigurálására és a hálózati problémák elhárítására.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h2>Használati útmutató</h2>
+                        <hr>
+                            <p>A hálózati parancsokat a Windows Parancssorban vagy a Linux/MacOS terminálban lehet használni.</p>
+                            <p>1. Nyissa meg a Parancssort vagy a terminált.</p>
+                            <p>2. Írja be a kívánt parancsot és nyomja meg az Enter billentyűt.</p>
+                            <p>3. A parancs végrehajtása után a rendszer megjeleníti az eredményeket.</p>
+                            <p>A hálózati parancsok segítségével lehetőség van a hálózati kapcsolatok kezelésére, a hálózati eszközök konfigurálására és a hálózati problémák elhárítására.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-grid-large uk-grid-match" uk-grid>
+                <div class="uk-width-1-2@m">
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h2>Parancsok</h2>
+                        <hr>
+                        <h3>Ping parancs</h3>
+                        <p>A ping parancs segítségével lehetőség van egy adott IP-cím vagy domain név elérhetőségének ellenőrzésére.</p>
+                        <pre>
+            ping [IP-cím vagy domain név]
+            </pre>
+                        <h3>Tracert parancs</h3>
+                        <p>A tracert parancs segítségével lehetőség van egy adott IP-cím vagy domain név elérési útvonalának megjelenítésére.</p>
+                        <pre>
+            tracert [IP-cím vagy domain név]
+            </pre>
+                        <h3>Netstat parancs</h3>
+                        <p>A netstat parancs segítségével lehetőség van a hálózati kapcsolatok és a hálózati portok megjelenítésére.</p>
+                        <pre>
+            netstat
+            </pre>
+                        <h3>Ipconfig parancs</h3>
+                        <p>A ipconfig parancs segítségével lehetőség van a hálózati adapterek konfigurálásának megjelenítésére.</p>
+                        <pre>
+            ipconfig
+            </pre>
+                        <h3>Dns parancs</h3>
+                        <p>A dns parancs segítségével lehetőség van a DNS szerverek elérésére.</p>
+                        <pre>
+            dns [domain név]
+            </pre>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@m">
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h2>Parancsok bemutatva</h2>
+                        <hr>
+                        <h3>Ping parancs példa</h3>
+                        <p>Példa a ping parancs használatára:</p>
+                        <pre>
+            ping 8.8.8.8
+            </pre>
+                        <p>Ez a parancs a Google DNS szerver elérhetőségét ellenőrzi.</p>
+                        <h3>Tracert parancs példa</h3>
+                        <p>Példa a tracert parancs használatára:</p>
+                        <pre>
+            tracert google.com
+            </pre>
+                        <p>Ez a parancs a Google weboldal elérési útvonalát jeleníti meg.</p>
+                        <h3>Netstat parancs példa</h3>
+                        <p>Példa a netstat parancs használatára:</p>
+                        <pre>
+            netstat -an
+            </pre>
+                        <p>Ez a parancs a hálózati kapcsolatok és a hálózati portok megjelenítésére szolgál.</p>
+                        <h3>Ipconfig parancs példa</h3>
+                        <p>Példa a ipconfig parancs használatára:</p>
+                        <pre>
+            ipconfig /all
+            </pre>
+                        <p>Ez a parancs a hálózati adapterek konfigurálásának megjelenítésére szolgál.</p>
+                        <h3>Dns parancs példa</h3>
+                        <p>Példa a dns parancs használatára:</p>
+                        <pre>
+            dns google.com
+            </pre>
+                        <p>Ez a parancs a Google DNS szerver elérésére szolgál.</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h2><a href="halozat.html"><span uk-icon="icon: chevron-left"></span> Vissza az alapokhoz</a></h2>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-text-right">
+                <h2><a href="index.html">Irány a főoldal<span uk-icon="icon: chevron-right"></span></a></h2>
+            </div>
+        </div>
+    </div>
+    <hr class="uk-divider-icon">
+    </div>
+</div>
+</body>
+</html>

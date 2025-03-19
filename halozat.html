@@ -25,6 +25,8 @@
 </head>
 <body class="match-braces uk-background-secondary uk-animation-scale-down">
 
+    <div class="bg-morph" data-end-color="#0080FF" data-start-color="00D8FF" data-start-trigger="top" data-end-trigger="bottom" id="main">
+        <div class="uk-animation-scale-down">
     <nav class="uk-navbar-container uk-margin" uk-navbar>
         <div class="uk-navbar-center">
             <div class="uk-navbar-center-left"><div>
@@ -59,45 +61,95 @@
             <div class="uk-margin-large-bottom uk-card uk-card-default uk-card-body">
                 <h1 class="uk-text-center" id="grad">Hálózati alapok</h1>
             </div>
-            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <h2>IP címek</h2>
-                        <p>Az IP címek az interneten keresztül kommunikáló eszközök egyedi azonosítói. Az IP címeket két csoportra oszthatjuk: IPv4 és IPv6. Az IPv4 címek 32 bitesek, az IPv6 címek pedig 128 bitesek. Az IPv4 címeket négy számjegy alkotja, amelyeket pontok választanak el egymástól. Az IPv6 címeket nyolc csoportba osztják, amelyeket kettőspontok választanak el egymástól. Az IPv4 címeket 0 és 255 közötti számok alkotják, az IPv6 címeket pedig hexadecimális számok alkotják. Az IPv4 címeket gyakran bináris formában is megadhatjuk, az IPv6 címeket pedig hexadecimális formában is megadhatjuk.</p>
-                    </div>
-                </div>
-            </div>
 
             <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
-                        <h2>Hálózati eszközök</h2>
-                        <div style="display: flex; justify-content: space-around;">
-                            <div>
-                                    <ul>
-                                        <li>Modem</li>
-                                        <li>Router</li>
-                                        <li>Switch</li>
-                                    </ul>
-                            </div>
-                            <div>
-                                    <ul>
-                                        <li>Access Point (AP)</li>
-                                        <li>Hub</li>
-                                        <li>Repeater</li>
-                                    </ul>
-                            </div>
-                        </div>
+                        <h2>Bevezetés</h2>
+                        <hr>
+                        <p>
+                            <b>Hálózatok: Az információk áramlásának alapja</b>
+                            <br>
+                            A hálózatok a modern technológia alapvető elemei, amelyek lehetővé teszik az információk áramlását és megosztását a világ minden részén. Egy hálózat olyan eszközök és szoftverek összessége, amelyek kommunikálnak egymással és információkat cserélnek. A hálózatok lehetővé teszik a felhasználóknak, hogy hozzáférjenek az információkhoz, kommunikáljanak egymással és megosztásák az erőforrásokat.
+                            
+                            A hálózatok különböző típusai vannak, beleértve a helyi hálózatokat (LAN), a szélessávú hálózatokat (WAN) és az internetet. A hálózatokat különböző eszközök és technológiák építik fel, beleértve a szervereket, a klienseket, a routerokat, a switcheket és a tűzfalakat.
+                            
+                            Ebben az ismertetőben bemutatjuk a hálózatok alapvető fogalmait, beleértve a hálózati eszközöket, a hálózati protokollokat és a hálózati biztonságot. Megismerkedünk a különböző hálózati típusokkal és technológiákkal, és megtanuljuk, hogyan lehet a hálózatokat hatékonyan használni és kezelni.</p>
                     </div>
                 </div>
-                
+            </div>
 
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h2>IP címek</h2>
+                        <hr>
+                        <p>Az IP címek az interneten keresztül kommunikáló eszközök egyedi azonosítói. Az IP címeket két csoportra oszthatjuk: IPv4 és IPv6. Az IPv4 címek 32 bitesek, az IPv6 címek pedig 128 bitesek. Az IPv4 címeket négy számjegy alkotja, amelyeket pontok választanak el egymástól. Az IPv6 címeket nyolc csoportba osztják, amelyeket kettőspontok választanak el egymástól. Az IPv4 címeket 0 és 255 közötti számok alkotják, az IPv6 címeket pedig hexadecimális számok alkotják. Az IPv4 címeket gyakran bináris formában is megadhatjuk, az IPv6 címeket pedig hexadecimális formában is megadhatjuk.</p>
+                    </div>
+                </div>
+            </div>
+            
+<div class="uk-child-width-1-3@m uk-grid-match" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <h2>Hálózati eszközök</h2>
+            <hr>
+            <p>A hálózati eszközök olyan eszközök, amelyek lehetővé teszik a számítógépek és más eszközök közötti kommunikációt.</p>
+            <ul>
+                <li>Router</li>
+                <li>Switch</li>
+                <li>Modem</li>
+                <li>Access Point (AP)</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <h2>Hálózati protokollok</h2>
+            <hr>
+            <p>A hálózati protokollok olyan szabályrendszerek, amelyek meghatározzák a hálózati kommunikáció módját.</p>
+            <ul>
+                <li>TCP/IP (Transmission Control Protocol/Internet Protocol)</li>
+                <li>HTTP (Hypertext Transfer Protocol)</li>
+                <li>FTP (File Transfer Protocol)</li>
+                <li>SSH (Secure Shell)</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <h2>Hálózati biztonság</h2>
+            <hr>
+            <p>A hálózati biztonság az a gyakorlat, amelynek célja a hálózati erőforrások védelme a nem kívánt hozzáféréstől és a károkozástól.</p>
+            <ul>
+                <li>Tűzfalak (Firewalls)</li>
+                <li>Antivírus szoftverek</li>
+                <li>Kódolás (Encryption)</li>
+                <li>Hitelesítés (Authentication)</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 
             </div>
         </div>
     </div>
+    
+    <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h2><a href="index.html"><span uk-icon="icon: chevron-left"></span> Vissza a főoldalra</a></h2>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-text-right">
+                <h2><a href="halozati_parancsok.html">Hálózati parancsok<span uk-icon="icon: chevron-right"></span></a></h2>
+            </div>
+        </div>
+    </div>
     <hr class="uk-divider-icon">
-
+    </div>
+</div>
 </body>
 </html>
